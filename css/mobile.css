@@ -1,0 +1,51 @@
+
+header img {
+	width: 80%;
+}
+
+.topo{ padding: 20px }
+.topo-fixo{ padding: 5px 10px }
+nav ul li {
+	display: block;
+	list-style: none;
+}
+
+nav ul li a {
+	width: 100%;
+	font-size: 1.3em;
+    font-weight: 700;
+	color: #FFF;
+	padding: 10px 0;
+	text-decoration: none;
+	float: left;
+    text-align: left;
+}
+
+/* menu não é exibido no mobile */
+#menu {
+	display: none;
+    height: 250px;
+}
+
+#btnmenu {
+	display: block;
+    text-align: right;
+}
+
+/* banners não são exibidos no mobile */
+#banner {
+	display: none;
+}
+
+.receita {
+	width: 100%;
+}
+
+.receita img {
+	opacity: 1;
+}
+
+#sobre-maps {
+	display: none;
+}
+.corpo{padding: 0 10px }

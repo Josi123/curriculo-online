@@ -1,0 +1,59 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ nav ul li {display: inline; list-style: none}
+
+nav ul li a {	margin: 10px;color: #FFF;text-align: center;	padding: 10px;	text-decoration: none;	transition: all 0.5s;   font-family:'Open Sans', sans-serif;   font-weight: 700;}
+
+nav ul li a:hover {	background: #FFF;	color: #faae00;}
+
+#btnmenu {	display: none;}
+
+h1 {	font-size: 1.5em; font-weight: 800px;	color: #2ea8e7;	margin: 5px 0;}
+h1 span{ border-bottom: 2px solid #faae00 }
+.btn {	padding: 10px;	background: #F00;	color: #FFF;	text-decoration: none;	text-align: center;	transition: all 0.5s;}
+
+.btn:hover {	background: #B20000;}
+
+footer {	width: 100%;	background: #faae00;	padding: 10px 0px 10px 0px;	float: left;    color: #FFF;}
+
+footer h1 span{ border-bottom: 2px solid #fff }
+
+#banner {	float: left;	width: 100%;}
+
+#banner img {	width: 100%; }
+
+
+
+.cycle-slideshow img{ width: 100% }
+
+.nome{ color: #fff; text-decoration: none; float: left; font-size: 20px; }
+.topo{  background: #2ea8e7; padding: 40px}
+.topo-fixo{ position: fixed; font-size: 1em; opacity: 0.9; padding: 15px; width: 100%; z-index: 999999 }
+.foto{ text-align: center}
+.texto{ text-align: center; font-weight: 600; line-height: 30px; color: #faae00; margin:20px 0 }
+.texto a{ color: #faae00; text-decoration: none}
+.topo ul{  text-align: right}
+.quebra-secao{   clear: both;}
+#portifolio{ background: #29d548; padding: 20px 0; min-height:400px  }
+#portifolio h1{ color: #fff }
+.portfolio{ background: #fff; margin: 20px; text-align: center; -webkit-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 18px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 18px 0px rgba(50, 50, 50, 0.75);}
+
+a.facebook:hover { background-position: 0 -40px }
+
+.formulario{  margin: 20px;}
+.formulario label, .formulario input, .formulario textarea{ width: 100%; display: table; margin: 5px 0}
+.formulario input{ padding: 10px; border-radius: 2px; }
+.formulario textarea{ height: 100px }
+.formulario label{ margin-top: 20px }
+.formulario button{ float: right; padding: 10px; border-radius: 5px; font-weight: 700; cursor: pointer}
+
+.redes-sociais{ margin-top: 100px; text-align: center}
+.redes-sociais a{ line-height: 50px; color: #fff ; text-decoration: none; margin: 5px}
