@@ -5,6 +5,7 @@ header img {
 
 .topo{ padding: 20px }
 .topo-fixo{ padding: 5px 10px }
+
 nav ul li {
 	display: block;
 	list-style: none;
@@ -15,10 +16,11 @@ nav ul li a {
 	font-size: 1.3em;
     font-weight: 700;
 	color: #FFF;
-	padding: 10px 0;
+	padding: 5px 0;
 	text-decoration: none;
 	float: left;
     text-align: left;
+
 }
 
 /* menu não é exibido no mobile */
@@ -49,3 +51,5 @@ nav ul li a {
 	display: none;
 }
 .corpo{padding: 0 10px }
+.foto img{ width:100%}
+.nome{ margin-top:15px }
