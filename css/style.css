@@ -44,16 +44,20 @@ footer h1 span{ border-bottom: 2px solid #fff }
 #portifolio h1{ color: #fff }
 .portfolio{ background: #fff; margin: 20px; text-align: center; -webkit-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 0px 18px 0px rgba(50, 50, 50, 0.75);
-box-shadow:         0px 0px 18px 0px rgba(50, 50, 50, 0.75);}
+box-shadow:         0px 0px 18px 0px rgba(50, 50, 50, 0.75);
+border-radius: 3px;}
 
 a.facebook:hover { background-position: 0 -40px }
 
 .formulario{  margin: 20px;}
 .formulario label, .formulario input, .formulario textarea{ width: 100%; display: table; margin: 5px 0}
 .formulario input{ padding: 10px; border-radius: 2px; }
-.formulario textarea{ height: 100px }
+.formulario textarea{ height: 100px;  border-radius: 2px; }
 .formulario label{ margin-top: 20px }
 .formulario button{ float: right; padding: 10px; border-radius: 5px; font-weight: 700; cursor: pointer}
 
 .redes-sociais{ margin-top: 100px; text-align: center}
 .redes-sociais a{ line-height: 50px; color: #fff ; text-decoration: none; margin: 5px}
+.redes-sociais a:hover{ opacity: 0.5 }
+.email{ background: url(../imgs/envelope.png) no-repeat left; padding-left: 40px}
+.fone{background: url(../imgs/fone.png) no-repeat left; padding-left: 40px; padding-top: 7px; padding-bottom: 5px}

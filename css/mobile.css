@@ -13,15 +13,20 @@ nav ul li {
 
 nav ul li a {
 	width: 100%;
-	font-size: 1.3em;
+	font-size: 1.1em;
     font-weight: 700;
 	color: #FFF;
 	padding: 5px 0;
 	text-decoration: none;
 	float: left;
     text-align: left;
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;
+    padding-left: 5px;
 
 }
+nav ul li a.border-none{border: none}
+nav ul li a:hover{ padding-left: 5px }
 
 /* menu não é exibido no mobile */
 #menu {
